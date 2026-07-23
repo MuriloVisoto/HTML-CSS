@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+              /*Medidas absolutas
+            cm, mm, in(polegada),px, pt(ponto), pc
+
+                    (recomendado usar= px ou em)
+
+              Medidas relativas
+            em, ex, rem, vw, vh, %
+            16 px geralmente= 1em
+              */
+            
+
+            /* weight(peso), width(largura), height(altura)
+               lighter(mais leve), normal, bold(mais grossa), bolder(extra grossa)
+            */
+        }
+
+        h1{
+            /* shorthand font
+
+            font-family:'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            ao invez de usar as tag a cima, da pra simpificar pro modelo abaixo
+
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'work sans', sans-serif;
+
+        }
+
+        h2{
+            font: bold 2em 'work sans', sans-serif;
+        }
+        
+    </style>
+</head>
+<body">
+    <h1>Trabalhando com fontes</h1>
+     <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ipsum ex temporibus hic odit sit voluptatem consequatur, similique fuga praesentium, modi voluptas illum asperiores fugiat nostrum dignissimos, sapiente distinctio accusamus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate voluptates obcaecati harum officiis, quisquam animi amet eius officia iure cum doloremque beatae velit, impedit, inventore facilis consequuntur nemo ducimus?</p>
+    <h2>Subtítulo do exercício</h2>
+     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusamus rem, aspernatur fugit officia, provident eligendi veritatis voluptate veniam omnis deserunt expedita impedit velit rerum nostrum hic praesentium quod doloribus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatibus possimus, qui quia ut mollitia perspiciatis culpa, saepe incidunt cumque id et explicabo aperiam officia, modi tempore illo aliquid architecto.</p>
+</body>
+</html>
